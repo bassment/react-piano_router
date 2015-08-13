@@ -1,0 +1,17 @@
+@Young = React.createClass
+  render: ->
+    image_path = "<%= asset_path('7.jpg') %>"
+    React.DOM.div
+      className: 'Young'
+      React.DOM.img
+        className: 'hero-image'
+        src: image_path
+        React.DOM.h1 null,
+          'Lester Young'
+        React.DOM.p
+          className: 'hero-biography'
+          "The impact of " +
+              "Lester Young’s style was so broad that he has been cited as a favorite by such diverse modern jazz figures as " +
+              "Charlie Parker, Stan Getz, and John Coltrane. Much of the West Coast “cool” style was a product of Lester Young's approach. " +
+              "He was so important that singer Billie Holiday called him president of tenor saxophonists, " +
+              "and he was known thereafter as Prez."

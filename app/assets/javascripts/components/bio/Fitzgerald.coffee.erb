@@ -1,0 +1,18 @@
+@Fitzgerald  = React.createClass
+  render: ->
+    image_path = "<%= asset_path('33.jpg') %>"
+    React.DOM.div
+      className: 'Fitzgerald'
+      React.DOM.img
+        className: 'hero-image'
+        src: image_path
+        React.DOM.h1 null,
+            'Ella Fitzgerald'
+        React.DOM.p
+          className: 'hero-biography'
+          "Following a troubled childhood, Ella Fitzgerald turned to singing and debuted at the Apollo " +
+              "Theater in 1934. Discovered in an amateur contest, " +
+              "she went on to became the top female jazz singer for decades. In 1958, " +
+              "Fitzgerald made history as the first African-American woman to win a Grammy Award. Due in no small part to her vocal quality, " +
+              "with lucid intonation and a broad range, the singer would go on to win 13 Grammys in total and sell more than 40 million albums. " +
+              "Her multi-volume \"songbooks\" on Verve Records are among America's recording treasures. Fitzgerald died in California in 1996."

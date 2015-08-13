@@ -1,0 +1,18 @@
+@Miles = React.createClass
+  render: ->
+    image_path = "<%= asset_path('15.jpg') %>"
+    React.DOM.div
+      className: 'Miles'
+      React.DOM.img
+        className: 'hero-image'
+        src: image_path
+        React.DOM.h1 null,
+            'Buddy Miles'
+        React.DOM.p
+          className: 'hero-biography'
+          "Best known as the drummer in Jimi Hendrix's Band of Gypsys, Buddy Miles also had a " +
+              "lengthy solo career that drew from rock, blues, soul, and funk in varying combinations. " +
+              "Born George Miles in Omaha, NE, on September 5, 1947, he started playing the drums at age nine, " +
+              "and joined his father's jazz band the Bebops as a mere 12 year old. As a teenager, he went on to " +
+              "play with several jazz and R&B outfits, most prominently backing vocal groups like Ruby & the Romantics, " +
+              "the Ink Spots, and the Delfonics. "

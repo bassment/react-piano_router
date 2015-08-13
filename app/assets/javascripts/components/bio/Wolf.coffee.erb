@@ -1,0 +1,16 @@
+@Wolf = React.createClass
+  render: ->
+    image_path = "<%= asset_path('25.jpg') %>"
+    React.DOM.div
+      className: 'Wolf'
+      React.DOM.img
+        className: 'hero-image'
+        src: image_path
+        React.DOM.h1 null,
+            'Howling Wolf'
+        React.DOM.p
+          className: 'hero-biography'
+          "Howlin' Wolf was born on June 10, 1910, in West Point, Mississippi. He studied with bluesmen Charley Patton and Sonny Boy Williamson before eventually " +
+              "signing with Chicago's Chess Records. An enthralling performer, he had hits like \"The Red Rooster\" " +
+              "and \"Moanin' at Midnight,\" and by 1960, he had begun working with songwriter Willie Dixon. Revered by U.K. " +
+              "rock artists, Wolf died in Hines, Illinois, on January 10, 1976."

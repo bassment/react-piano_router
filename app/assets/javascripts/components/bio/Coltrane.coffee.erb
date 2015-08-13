@@ -1,0 +1,17 @@
+@Coltrane = React.createClass
+  render: ->
+    image_path = "<%= asset_path('4.jpg') %>"
+    React.DOM.div
+      className: 'Coltrane'
+      React.DOM.img
+        className: 'hero-image'
+        src: image_path
+        React.DOM.h1 null,
+            'John Coltane'
+        React.DOM.p
+          className: 'hero-biography'
+          "John Coltrane was born September 23, 1926, in Hamlet, North Carolina. " +
+              "During the late 1940s and early 1950s, he played in nightclubs and on recordings with such musicians as " +
+              "Dizzy Gillespie, Earl Bostic and Johnny Hodges. Coltrane's first recorded solo can be heard on Gillespie's " +
+              "\"We Love to Boogie\" (1951). Coltrane came to prominence when he joined Miles Davis's quintet in 1955. " +
+              "He died from liver cancer on July 17, 1967, in Huntington, Long Island, New York."

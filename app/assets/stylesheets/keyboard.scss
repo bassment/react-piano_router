@@ -1,9 +1,6 @@
 body {
   background-image: image_url('2-dark-backgrounds.jpg');
 }
-.carousel{
-  margin-top: 100px;
-}
 .keyboard {
   margin-left: 24px;
 }
@@ -87,40 +84,35 @@ input.black:nth-child(7) + label {
 input.black:nth-child(9) + label {
   left: 296px;
 }
-.carousel-fade {
-  .carousel-inner {
-    .item {
-      transition-property: opacity;
-      height: 700px !important;
-    }
 
-    .item,
-    .active.left,
-    .active.right {
-      opacity: 0;
-    }
-
-    .active,
-    .next.left,
-    .prev.right {
-      opacity: 1;
-    }
-
-    .next,
-    .prev,
-    .active.left,
-    .active.right {
-      left: 0;
-      transform: translate3d(0, 0, 0);
-    }
-  }
-}
-@for $i from 1 through 36 {
-  .item:nth-child(#{$i}) {
-    background-image: image_url('#{$i}.jpg');
-    border: 5px solid #fafafa;
-  }
-}
 ol, li {
   visibility: hidden;
+}
+a{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+img {
+  display:block;
+  margin: 30px auto;
+  width: 500px;
+  height: 400px;
+  border: 5px solid #fafafa;
+}
+
+p {
+  font-family: Sans-Serif;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  text-shadow: 3px 3px black;
+}
+
+h1 {
+  font-family: Sans-Serif;
+  color: white;
+  text-align: center;
+  text-shadow: 3px 3px black;
 }

@@ -1,0 +1,17 @@
+@Colins  = React.createClass
+  render: ->
+    image_path = "<%= asset_path('27.jpg') %>"
+    React.DOM.div
+      className: 'Colins'
+      React.DOM.img
+        className: 'hero-image'
+        src: image_path
+        React.DOM.h1 null,
+            'Bootsy Colins '
+        React.DOM.p
+          className: 'hero-biography'
+          "Bootsy Collins is one of the all-time great funk and R&B bassists, besides being a consummate character. " +
+              "Born in Cincinnati, Collins formed the Pacesetters during the '60s, a unit that not only included vocalist Philippe Wynne " +
+              "(later of Spinners fame), but also George Clinton as a sideman. Collins and Clinton soon established a " +
+              "lifelong personal and musical friendship, and Collins and his comrades became part of the JB's, " +
+              "James Brown's backing band, from 1969 to 1971."

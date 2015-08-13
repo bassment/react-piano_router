@@ -1,0 +1,17 @@
+@Jamal = React.createClass
+  render: ->
+    image_path = "<%= asset_path('6.jpg') %>"
+    React.DOM.div
+      className: 'Jamal'
+      React.DOM.img
+        className: 'hero-image'
+        src: image_path
+        React.DOM.h1 null,
+          'Ahmad Jamal'
+        React.DOM.p
+          className: 'hero-biography'
+          "Mr. Jamal was born on July 2, 1930, in Pittsburgh, Pennsylvania. " +
+              "Considering his ensemble \"an orchestra\", Mr. Jamal not only achieves a unified sound, but subtly inserts " +
+              "independent roles for the bass and drums.  The hallmarks of Mr. Jamal's style are rhythmic innovations, " +
+              "colorful harmonic perceptions, especially left hand harmonic and melodic figures, plus parallel and contrary motion lines in " +
+              "and out of chordal substitutions and alterations and pedal point ostinato interludes in tasteful dynamics."

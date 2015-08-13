@@ -1,0 +1,17 @@
+@Marley = React.createClass
+  render: ->
+    image_path = "<%= asset_path('18.jpg') %>"
+    React.DOM.div
+      className: 'Marley'
+      React.DOM.img
+        className: 'hero-image'
+        src: image_path
+        React.DOM.h1 null,
+            'Bob Marley'
+        React.DOM.p
+          className: 'hero-biography'
+          "Bob Marley was born on February 6, 1945, in St. Ann Parish, Jamaica. " +
+              "In 1963, Marley and his friends formed the Wailing Wailers. The Wailers' big break came in 1972, " +
+              "when they landed a contract with Island Records. Marley went on to sell more than 20 million records throughout his career, " +
+              "making him the first international " +
+              "superstar to emerge from the so-called Third World. He died in Miami, Florida, on May 11, 1981."

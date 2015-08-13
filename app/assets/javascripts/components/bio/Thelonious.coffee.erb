@@ -1,0 +1,18 @@
+@Thelonious = React.createClass
+  render: ->
+    image_path = "<%= asset_path('1.jpg') %>"
+    React.DOM.div
+      className: 'Thelonious'
+      React.DOM.img
+        className: 'hero-image'
+        src: image_path
+      React.DOM.h1 null,
+        'Thelonious Monk'
+      React.DOM.p
+        className: 'hero-biography'
+        "Thelonious Sphere Monk was born on October 10, 1917, in Rocky Mount, North Carolina. " +
+            "The first musical sounds he heard were from a player piano that his family owned. " +
+            "At the age of five or six he began picking out melodies on the piano and taught himself to read music " +
+            "by looking over his sister's shoulder as she took lessons. About a year later the family moved to the San Juan Hill section of " +
+            "New York City, near the Hudson River. His father became ill soon afterward and returned to the South, " +
+            "leaving Thelonious's mother, Barbara, to raise him and his brother and sister. "

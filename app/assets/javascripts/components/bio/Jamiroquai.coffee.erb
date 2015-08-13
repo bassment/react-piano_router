@@ -1,0 +1,15 @@
+@Jamiroquai  = React.createClass
+  render: ->
+    image_path = "<%= asset_path('22.jpg') %>"
+    React.DOM.div
+      className: 'Jamiroquai '
+      React.DOM.img
+        className: 'hero-image'
+        src: image_path
+        React.DOM.h1 null,
+            'Jamiroquai '
+        React.DOM.p
+          className: 'hero-biography'
+          "Jay Kay has a few rules. He didn’t get where he is – single after single walloping into the charts \
+          (over 20 of them to date), murdering on the dancefloor; 25 million copies sold of Jamiroquai’s seven albums \
+          (including 2006’s greatest hits); a career lasting (so far) an era-defying 18 years – by being vague, or slack. "

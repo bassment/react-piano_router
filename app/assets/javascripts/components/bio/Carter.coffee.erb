@@ -1,0 +1,16 @@
+@Carter = React.createClass
+  render: ->
+    image_path = "<%= asset_path('13.jpg') %>"
+    React.DOM.div
+      className: 'Carter'
+      React.DOM.img
+        className: 'hero-image'
+        src: image_path
+        React.DOM.h1 null,
+            'Ron Carter'
+        React.DOM.p
+          className: 'hero-biography'
+          "With more than 2,000 albums to his credit, he has recorded with many of music's greats: " +
+              "Tommy Flanagan, Gil Evans, Lena Horne, Bill Evans, B.B. King, the Kronos Quartet, Dexter Gordon, Wes Montgomery, " +
+              "and Bobby Timmons. In the early 1960s he performed " +
+              "throughout the United States in concert halls and nightclubs with Jaki Byard and Eric Dolphy."

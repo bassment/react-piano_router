@@ -1,0 +1,16 @@
+@Pastorius = React.createClass
+  render: ->
+    image_path = "<%= asset_path('17.jpg') %>"
+    React.DOM.div
+      className: 'Pastorius'
+      React.DOM.img
+        className: 'hero-image'
+        src: image_path
+        React.DOM.h1 null,
+            'Jaco Pastorius'
+        React.DOM.p
+          className: 'hero-biography'
+          "Jaco Pastorius, the man who revolutionized how the bass guitar is played and who is, for many, " +
+              "the best and most influential bass guitarist ever, didn’t start his musical life on the instrument. " +
+              "Instead, the man who would be the master of the fretless electric bass was a drummer. " +
+              "A drummer, just like his dad, Jack Pastorius, a big band player and singer."

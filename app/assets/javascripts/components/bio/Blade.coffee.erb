@@ -1,0 +1,20 @@
+@Blade = React.createClass
+  render: ->
+    image_path = "<%= asset_path('11.jpg') %>"
+    React.DOM.div
+      className: 'Blade'
+      React.DOM.img
+        className: 'hero-image'
+        src: image_path
+        React.DOM.h1 null,
+            'Brian Blade'
+        React.DOM.p
+          className: 'hero-biography'
+          "A native of Shreveport, Louisiana, " +
+              "Brian Blade established himself as a versatile, accomplished drummer early in his career, " +
+              "appearing on albums by the likes of Joshua Redman, Kenny Garrett, and Bob Dylan. Blade released his first album, " +
+              "Brian Blade Fellowship, at the age of 27 in 1998 and followed two years later with Perceptual, both on Blue Note. " +
+              "Always an in-demand sideman and collaborator, Blade continued to find work with a varied bevy of artists, including " +
+              "Joni Mitchell, Bill Frisell, and Wayne Shorter. Ten years after releasing his first album as the Brian Blade Fellowship, " +
+              "Blade returned with Season of Changes in 2008, this time on Verve. A year later he released the solo Americana, " +
+              "singer/songwriter effort Mama Rosa for the label."

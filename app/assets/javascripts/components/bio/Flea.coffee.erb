@@ -1,0 +1,18 @@
+@Clarke = React.createClass
+  render: ->
+    image_path = "<%= asset_path('20.jpg') %>"
+    React.DOM.div
+      className: 'Clarke'
+      React.DOM.img
+        className: 'hero-image'
+        src: image_path
+        React.DOM.h1 null,
+            'Stanley Clarke'
+        React.DOM.p
+          className: 'hero-biography'
+          "Four-time Grammy Award winner Stanley Clarke is undoubtedly one of the most " +
+              "celebrated acoustic and electric bass players in the world. What’s more, he is equally gifted " +
+              "as a recording artist, performer, composer, conductor, arranger, producer and film score composer. " +
+              "A true pioneer in jazz and jazz-fusion, Clarke is particularly known for his ferocious bass dexterity and consummate musicality. " +
+              "Unquestionably, he has attained " +
+              "“living legend” status during his over 40-year career as a bass virtuoso."

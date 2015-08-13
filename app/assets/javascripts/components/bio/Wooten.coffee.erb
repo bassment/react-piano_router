@@ -1,0 +1,18 @@
+@Wooten  = React.createClass
+  render: ->
+    image_path = "<%= asset_path('24.jpg') %>"
+    React.DOM.div
+      className: 'Wooten'
+      React.DOM.img
+        className: 'hero-image'
+        src: image_path
+        React.DOM.h1 null,
+            'Victor Wooten'
+        React.DOM.p
+          className: 'hero-biography'
+          "Victor Lemonte Wooten is a unique human being. " +
+              "Born the youngest of five boys, he began learning to play music at the tender age of two. He started performing in nightclubs and " +
+              "theaters as the bassist with the family band at age five, and at age six, was on tour with his brothers opening shows for legendary soul artist " +
+              "Curtis Mayfield. Soon after, he was affectionately known as the 8-year-old Bass Ace, and before graduating high school, he and his brothers had shared the stage " +
+              "with artists such as Stephanie Mills, War, Ramsey Lewis, " +
+              "Frankie Beverly and Maze, Dexter Wansel, and The Temptations. But, this only begins to tell the tale of this Tennessee titan."

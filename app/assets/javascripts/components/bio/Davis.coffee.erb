@@ -1,0 +1,18 @@
+@Davis = React.createClass
+  render: ->
+    image_path = "<%= asset_path('2.jpg') %>"
+    React.DOM.div
+      className: 'Davis'
+      React.DOM.img
+        className: 'hero-image'
+        src: image_path
+        React.DOM.h1 null,
+          'Miles Davis'
+        React.DOM.p
+          className: 'hero-biography'
+          "The son of a prosperous dental surgeon and a music teacher, Miles Davis was born Miles Dewey Davis III on May 26, 1926, " +
+              "in Alton, Illinois. Davis grew up in a supportive middle-class household, where he was introduced by his father to the trumpet" +
+              " at age 13. Davis quickly developed a talent for playing the trumpet under the private tutelage of Elwood Buchanan, " +
+              "a friend of his father who directed a music school. Buchanan emphasized playing the trumpet without vibrato, which was " +
+              "contrary to the common style used by trumpeters such as Louis Armstrong, and which would come to influence and help develop " +
+              "the Miles Davis style. "

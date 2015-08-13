@@ -1,0 +1,16 @@
+@Montgomery = React.createClass
+  render: ->
+    image_path = "<%= asset_path('12.jpg') %>"
+    React.DOM.div
+      className: 'Montgomery'
+      React.DOM.img
+        className: 'hero-image'
+        src: image_path
+        React.DOM.h1 null,
+            'Wes Montgomery'
+        React.DOM.p
+          className: 'hero-biography'
+          "Wes Montgomery played guitar in the Lionel Hampton band in 1948–50 and in Indianapolis during the 1950s, " +
+              "most often with his brothers Buddy and Monk. Most of Montgomery's finest recordings, including The Incredible Jazz Guitar " +
+              "of Wes Montgomery, Movin' Along and Full House, " +
+              "date from 1959–63, and his solo forms especially were an influence on later guitarists, most prominently George Benson."

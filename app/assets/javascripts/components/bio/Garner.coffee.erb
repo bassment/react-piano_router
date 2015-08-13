@@ -1,0 +1,16 @@
+@Garner  = React.createClass
+  render: ->
+    image_path = "<%= asset_path('26.jpg') %>"
+    React.DOM.div
+      className: 'Garner'
+      React.DOM.img
+        className: 'hero-image'
+        src: image_path
+        React.DOM.h1 null,
+            'Erroll Garner'
+        React.DOM.p
+          className: 'hero-biography'
+          "Jazz pianist Erroll Garner was born on June 15, 1921, in Pittsburgh, Pennsylvania. Garner was influenced by Fats Waller and " +
+              "was entirely self-taught. He spelled Art Tatum in the latter's trio in 1945 and subsequently formed his own three-piece group, achieving " +
+              "commercial success with Concert by the Sea (1958), which has been credited as one of the " +
+              "best-selling albums in the history of jazz. Garner's best-known composition is \"Misty.\" He died on January 2, 1977, in Los Angeles, California."

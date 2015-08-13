@@ -1,0 +1,16 @@
+@Waters  = React.createClass
+  render: ->
+    image_path = "<%= asset_path('29.jpg') %>"
+    React.DOM.div
+      className: 'Waters'
+      React.DOM.img
+        className: 'hero-image'
+        src: image_path
+        React.DOM.h1 null,
+            'Muddy Waters'
+        React.DOM.p
+          className: 'hero-biography'
+          "Muddy Waters was born McKinley Morganfield on April 4, 1915, in Rolling Fork, Mississippi. " +
+              "Waters grew up immersed in the Delta blues, and was first recorded by archivist Alan Lomax. In 1943, " +
+              "he moved to Chicago and began playing in clubs. A record deal followed, " +
+              "and hits like \"I'm Your Hoochie Coochie Man\" and \"Rollin' Stone\" made him an iconic Chicago blues man."

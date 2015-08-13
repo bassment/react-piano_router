@@ -1,0 +1,16 @@
+@Haden = React.createClass
+  render: ->
+    image_path = "<%= asset_path('9.jpg') %>"
+    React.DOM.div
+      className: 'Haden'
+      React.DOM.img
+        className: 'hero-image'
+        src: image_path
+        React.DOM.h1 null,
+            'Charlie Haden'
+        React.DOM.p
+          className: 'hero-biography'
+          "Time Magazine has hailed jazz legend Charlie Haden as “one of the most restless, gifted, and intrepid players in all of jazz.” " +
+              "Haden’s career which has spanned more than fifty years has encompassed such genres as free jazz, " +
+              "Portuguese fado and vintage country such as his recent cd Rambling Boy (Decca) not to mention a consistently revolving " +
+              "roster of sidemen and bandleaders that reads like a list from some imaginary jazz hall of fame."

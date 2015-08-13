@@ -1,0 +1,17 @@
+@Vaughan  = React.createClass
+  render: ->
+    image_path = "<%= asset_path('35.jpg') %>"
+    React.DOM.div
+      className: 'Vaughan'
+      React.DOM.img
+        className: 'hero-image'
+        src: image_path
+        React.DOM.h1 null,
+            'Stevie Ray Vaughan'
+        React.DOM.p
+          className: 'hero-biography'
+          "Born on October 3, 1954 in Dallas, Texas, Stevie Ray Vaughan played guitar as a child and became " +
+              "lead singer for the Texas band Double Trouble, which led to work with David Bowie and Jackson Browne. " +
+              "Vaughan had hit albums with his band before the 1989 release of In Step, for which he earned a Grammy. " +
+              "He also recorded with his brother Jimmy. " +
+              "Vaughan died in a late night helicopter crash on August 27, 1990, at 35."
