@@ -1,0 +1,19 @@
+@Miller = React.createClass
+  render: ->
+    image_path = "<%= asset_path('10.jpg') %>"
+    React.DOM.div
+      className: 'Miller'
+      React.DOM.img
+        className: 'hero-image'
+        src: image_path
+        React.DOM.h1 null,
+            'Marcus Miller'
+        React.DOM.p
+          className: 'hero-biography'
+          "An album entitled Renaissance is long overdue for the widely acclaimed Renaissance Man Marcus Miller. " +
+              "In among the most enviable careers in music, Miller is a two-time Grammy-winner and the composer/producer of ten critically " +
+              "acclaimed and genre-defying albums (seven studio and three live). Even the most devoted follower may be astonished to realize " +
+              "that Renaissance is only his eighth studio project since his 1983 debut, Suddenly, considering the abundance of " +
+              "occasions Miller’s name has appeared within album credits and that he has dazzled with performances, compositions and " +
+              "productions – in the company of some of the world’s most respected and accomplished players and superstars - " +
+              "from the mid-`70s to the present."

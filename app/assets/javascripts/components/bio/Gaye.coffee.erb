@@ -1,0 +1,17 @@
+@Gaye  = React.createClass
+  render: ->
+    image_path = "<%= asset_path('32.jpg') %>"
+    React.DOM.div
+      className: 'Gaye'
+      React.DOM.img
+        className: 'hero-image'
+        src: image_path
+        React.DOM.h1 null,
+            'Marvin Gaye'
+        React.DOM.p
+          className: 'hero-biography'
+          "Born in 1939, in Washington, D.C., Marvin Gaye sang in his father's church and in the Moonglows before signing with Motown. " +
+              "He recorded songs by Smokey Robinson before becoming his own producer on the protest album What's Going On (1971). " +
+              "Gaye's later records developed his production style and yielded several hits, " +
+              "including \"Let's Get It On,\" \"Sexual Healing\" and \"I Heard it Through the Grapevine.\" " +
+              "Gaye was killed in 1984 during a domestic dispute with his father."

@@ -1,0 +1,18 @@
+@Hancock = React.createClass
+  render: ->
+    image_path = "<%= asset_path('3.jpg') %>"
+    React.DOM.div
+      className: 'Hancock'
+      React.DOM.img
+        className: 'hero-image'
+        src: image_path
+        React.DOM.h1 null,
+            'Herbie Hancock'
+        React.DOM.p
+          className: 'hero-biography'
+          "Born on April 12, 1940, in Chicago, Illinois, Herbert Jeffrey Hancock began studying piano when he was 7 years old. " +
+              "A few years later, as a tween, he was playing Mozart with the Chicago Symphony Orchestra. " +
+              "He began to enjoy jazz compositions during his high school years and, upon entering Grinnell College in 1956, " +
+              "decided to focus on electrical engineering. The major initially seemed more practical and allowed him to invest in his " +
+              "passion for technology. Yet Hancock decided to switch over to music composition and formed his own group, " +
+              "later moving to New York to play with trumpeter Donald Byrd."

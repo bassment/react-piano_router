@@ -1,0 +1,18 @@
+@Peterson  = React.createClass
+  render: ->
+    image_path = "<%= asset_path('31.jpg') %>"
+    React.DOM.div
+      className: 'Peterson'
+      React.DOM.img
+        className: 'hero-image'
+        src: image_path
+        React.DOM.h1 null,
+            'Lucky Peterson'
+        React.DOM.p
+          className: 'hero-biography'
+          "Little Lucky Peterson was lucky to be born into a musical family. His dad, James Peterson, " +
+              "owned the Governor's Inn, a popular Buffalo, New York blues nightclub that booked the biggies: " +
+              "Jimmy Reed, Muddy Waters, Bill Doggett. The latter's mighty Hammond B-3 organ fascinated the four-and-a-half-year-old lad, " +
+              "and soon Peterson was on his way under Dixon's tutelage. \"1-2-3-4\" " +
+              "got Peterson on The Tonight Show and The Ed Sullivan Show, but he didn't rest on his laurels -- " +
+              "he was doubling on guitar at age eight, and at 17, he signed on as Little Milton's keyboardist for three years."

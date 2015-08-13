@@ -1,0 +1,17 @@
+@Brown  = React.createClass
+  render: ->
+    image_path = "<%= asset_path('30.jpg') %>"
+    React.DOM.div
+      className: 'Brown'
+      React.DOM.img
+        className: 'hero-image'
+        src: image_path
+        React.DOM.h1 null,
+            'Clifford Brown'
+        React.DOM.p
+          className: 'hero-biography'
+          "Born in Delaware in 1930, Clifford Brown began exhibiting extraordinary expertise on the trumpet in his early teens. " +
+              "His rich tone, virtuoso technique and graceful style kept Brown continually working and growing in popularity. " +
+              "He was especially noted for his ability to improvise in long, melodic phrases. The jazz standard \"Joy Spring\" (1954) " +
+              "is one of his best-known songs. Tragically killed in a car accident in 1956, at age 25, Brown has been praised " +
+              "as the \"greatest trumpeter that ever lived\" by musicians such as Herb Alpert and Quincy Jones."

@@ -1,0 +1,16 @@
+@Ellington  = React.createClass
+  render: ->
+    image_path = "<%= asset_path('28.jpg') %>"
+    React.DOM.div
+      className: 'Ellington'
+      React.DOM.img
+        className: 'hero-image'
+        src: image_path
+        React.DOM.h1 null,
+            'Duke Ellington'
+        React.DOM.p
+          className: 'hero-biography'
+          "Born 29 April 1899 in Washington DC, composer, bandleader, and pianist Edward Kennedy (\"Duke\") Ellington " +
+              "was recognized in his lifetime as one of the greatest jazz composers and performers. A genius for instrumental combinations, " +
+              "improvisation, and jazz arranging brought the world the unique \"Ellington\" sound that found consummate expression in works like Mood Indigo, " +
+              "Sophisticated Lady, and the symphonic suites Black, Brown, and Beige, and Harlem. "

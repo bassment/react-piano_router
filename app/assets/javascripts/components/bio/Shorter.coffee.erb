@@ -1,0 +1,16 @@
+@Shorter = React.createClass
+  render: ->
+    image_path = "<%= asset_path('8.jpg') %>"
+    React.DOM.div
+      className: 'Shorter'
+      React.DOM.img
+        className: 'hero-image'
+        src: image_path
+        React.DOM.h1 null,
+            'Wayne Shorter'
+        React.DOM.p
+          className: 'hero-biography'
+          "Born in Newark, New Jersey, in 1933, jazz musician Wayne Shorter gained attention for both his skill on the saxophone and " +
+              "his compositions. In his career, he played with greats like John Coltrane, Miles Davis and Herbie Hancock, and co-founded " +
+              "Weather Report, a noted jazz fusion group. A nine-time Grammy Award winner, " +
+              "Shorter was named a Jazz Master by the National Endowment for the Arts in 1998."

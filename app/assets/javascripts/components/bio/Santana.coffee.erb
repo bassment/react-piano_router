@@ -1,0 +1,17 @@
+@Santana = React.createClass
+  render: ->
+    image_path = "<%= asset_path('16.jpg') %>"
+    React.DOM.div
+      className: 'Santana'
+      React.DOM.img
+        className: 'hero-image'
+        src: image_path
+        React.DOM.h1 null,
+            'Carlos Santana'
+        React.DOM.p
+          className: 'hero-biography'
+          "Born on July 20, 1947, in Autlán de Navarro, Mexico, " +
+              "Carlos Santana moved to San Francisco in the early 1960s, where he formed the Santana " +
+              "Blues Band in 1966. The band, later simply known as Santana, signed a contract with Columbia Records. " +
+              "Throughout the 1970s and early '80s, Santana and his band released a string of successful albums. In 2009, " +
+              "he received a Lifetime Achievement Award. In 2013, Santana became a Kennedy Center Honors recipient."

@@ -1,0 +1,16 @@
+@Hooker  = React.createClass
+  render: ->
+    image_path = "<%= asset_path('23.jpg') %>"
+    React.DOM.div
+      className: 'Hooker'
+      React.DOM.img
+        className: 'hero-image'
+        src: image_path
+        React.DOM.h1 null,
+            'John Lee Hooker'
+        React.DOM.p
+          className: 'hero-biography'
+          "John Lee Hooker was born in Clarksdale, Mississippi on August 22, 1917. " +
+              "As a blues singer and guitarist, he began his career in Detroit in 1948 with the release of Boogie Chillun, " +
+              "the biggest of his several hit records. He toured continually, and among \"deep blues\" artists enjoyed an unusually " +
+              "successful career, appearing in concerts and on recordings with many of the leading figures in rock."

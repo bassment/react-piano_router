@@ -1,0 +1,17 @@
+@Dylan = React.createClass
+  render: ->
+    image_path = "<%= asset_path('19.jpg') %>"
+    React.DOM.div
+      className: 'Dylan'
+      React.DOM.img
+        className: 'hero-image'
+        src: image_path
+        React.DOM.h1 null,
+            'Bob Dylan'
+        React.DOM.p
+          className: 'hero-biography'
+          "Folk rock singer-songwriter Bob Dylan was born Robert Allen Zimmerman on May 24, 1941, " +
+              "in Duluth, Minnesota. While attending college, he began performing folk and " +
+              "country songs, taking the name \"Bob Dylan.\" In 1961 Dylan signed his first recording contract. " +
+              "Showing no signs of slowing down, Dylan has continued to tour in recent years, with his recent studio albums " +
+              "including Together Through Life (2009) and Tempest (2012)."

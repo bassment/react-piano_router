@@ -1,0 +1,17 @@
+@JBrown  = React.createClass
+  render: ->
+    image_path = "<%= asset_path('36.jpg') %>"
+    React.DOM.div
+      className: 'JBrown'
+      React.DOM.img
+        className: 'hero-image'
+        src: image_path
+        React.DOM.h1 null,
+            'James Brown'
+        React.DOM.p
+          className: 'hero-biography'
+          "Born in Barnwell, South Carolina, on May 3, 1933, into extreme poverty, " +
+              "James Brown worked his way to the top of the funk and R&B music earning the moniker \"The Godfather of Soul.\" " +
+              "His unique vocal and musical style influenced many artists. Brown was also known for his turbulent personal life, " +
+              "as well as his social activism, both in his songwriting (\"America is My Home,\" \"Black and Proud\") and advocating the " +
+              "benefits of education to schoolchildren. "

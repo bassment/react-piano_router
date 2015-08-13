@@ -1,0 +1,16 @@
+@Flea = React.createClass
+  render: ->
+    image_path = "<%= asset_path('21.jpg') %>"
+    React.DOM.div
+      className: 'Flea'
+      React.DOM.img
+        className: 'hero-image'
+        src: image_path
+        React.DOM.h1 null,
+            'Flea'
+        React.DOM.p
+          className: 'hero-biography'
+          "Born in Australia in 1962, Michael \"Flea\" Balzary started out as " +
+              "a jazz enthusiast. He was a talented trumpeter growing up. In high school, Flea turned to punk and rock. " +
+              "He formed the Red Hot Chili Peppers with three friends from high school. The band had its first hit album, BloodSugarSexMagik, " +
+              "in 1991. More successes have followed, including 2006's Stadium Arcadium and 2011's I'm With You."
