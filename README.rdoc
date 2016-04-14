@@ -1,4 +1,3 @@
-react-piano-router
 Css piano with fade in images on react js(every key = new route with react router)
 
 Backend is on **Ruby/Rails** and frontend is using **React.**
